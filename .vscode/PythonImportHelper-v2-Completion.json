@@ -81,6 +81,30 @@
         "documentation": {}
     },
     {
+        "label": "AbstractBaseUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseUserManager",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "PermissionsMixin",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
         "label": "TestCase",
         "importPath": "django.test",
         "description": "django.test",
@@ -346,6 +370,24 @@
         "description": "authentication.apps",
         "peekOfCode": "class AuthenticationConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'authentication'",
         "detail": "authentication.apps",
+        "documentation": {}
+    },
+    {
+        "label": "UserManagement",
+        "kind": 6,
+        "importPath": "authentication.models",
+        "description": "authentication.models",
+        "peekOfCode": "class UserManagement(BaseUserManager):\n    def create_user(self, email, first_name, last_name, password=None):\n        if not email:\n            raise ValueError('Users must have an email address')\n        user = self.model(\n            email=self.normalize_email(email),\n            username=email.split('@')[0],\n            first_name = first_name,\n            last_name= last_name\n        )",
+        "detail": "authentication.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "authentication.models",
+        "description": "authentication.models",
+        "peekOfCode": "class User(AbstractBaseUser, PermissionsMixin):\n    email = models.EmailField(max_length=255, unique=True)\n    username = models.CharField(max_length=255, unique=True)\n    first_name = models.CharField(max_length=255)\n    last_name = models.CharField(max_length=255)\n    is_admin = models.BooleanField(default=False)\n    is_staff = models.BooleanField(default=False)\n    is_superuser = models.BooleanField(default=False)\n    date_joined = models.DateTimeField(auto_now_add=True)\n    last_login = models.DateTimeField(auto_now=True)",
+        "detail": "authentication.models",
         "documentation": {}
     },
     {
