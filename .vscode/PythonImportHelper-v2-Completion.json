@@ -57,6 +57,14 @@
         "documentation": {}
     },
     {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "get_wsgi_application",
         "importPath": "django.core.wsgi",
         "description": "django.core.wsgi",
@@ -431,6 +439,15 @@
         "description": "authentication.serializers",
         "peekOfCode": "class EmailVerificationSerializer(serializers.ModelSerializer):\n    token = serializers.CharField(max_length=555)\n    class Meta:\n        model = User\n        fields = ['token']",
         "detail": "authentication.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "authentication.urls",
+        "description": "authentication.urls",
+        "peekOfCode": "urlpatterns = [\n    path('register/', RegisterView.as_view(), name='register'),\n    path('activate/', VerifyEmail.as_view(), name='activate'),\n]",
+        "detail": "authentication.urls",
         "documentation": {}
     },
     {
