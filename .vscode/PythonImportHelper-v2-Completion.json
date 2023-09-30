@@ -113,6 +113,14 @@
         "documentation": {}
     },
     {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
         "label": "TestCase",
         "importPath": "django.test",
         "description": "django.test",
@@ -405,6 +413,24 @@
         "description": "authentication.models",
         "peekOfCode": "class User(AbstractBaseUser, PermissionsMixin):\n    email = models.EmailField(max_length=255, unique=True)\n    username = models.CharField(max_length=255, unique=True)\n    first_name = models.CharField(max_length=255)\n    last_name = models.CharField(max_length=255)\n    is_admin = models.BooleanField(default=False)\n    is_staff = models.BooleanField(default=False)\n    is_superuser = models.BooleanField(default=False)\n    date_joined = models.DateTimeField(auto_now_add=True)\n    last_login = models.DateTimeField(auto_now=True)",
         "detail": "authentication.models",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterSerializer",
+        "kind": 6,
+        "importPath": "authentication.serializers",
+        "description": "authentication.serializers",
+        "peekOfCode": "class RegisterSerializer(serializers.ModelSerializer):\n    username=serializers.CharField(max_length=255, read_only=True)\n    password = serializers.CharField(max_length=68, min_length=6, write_only=True)\n    class Meta:\n        model = User\n        fields = ['first_name', 'last_name', 'email', 'username', 'password']\n    def create(self, validated_data):\n        return User.objects.create_user(**validated_data)\nclass EmailVerificationSerializer(serializers.ModelSerializer):\n    token = serializers.CharField(max_length=555)",
+        "detail": "authentication.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "EmailVerificationSerializer",
+        "kind": 6,
+        "importPath": "authentication.serializers",
+        "description": "authentication.serializers",
+        "peekOfCode": "class EmailVerificationSerializer(serializers.ModelSerializer):\n    token = serializers.CharField(max_length=555)\n    class Meta:\n        model = User\n        fields = ['token']",
+        "detail": "authentication.serializers",
         "documentation": {}
     },
     {
