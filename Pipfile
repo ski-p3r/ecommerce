@@ -8,6 +8,7 @@ django = "==4.2.5"
 djangorestframework = "*"
 djangorestframework-simplejwt = "==5.3.0"
 drf-yasg = "==1.21.7"
+python-decouple = "*"
 
 [dev-packages]
 
