@@ -65,6 +65,14 @@
         "documentation": {}
     },
     {
+        "label": "UserAdmin",
+        "importPath": "django.contrib.auth.admin",
+        "description": "django.contrib.auth.admin",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.admin",
+        "documentation": {}
+    },
+    {
         "label": "AppConfig",
         "importPath": "django.apps",
         "description": "django.apps",
@@ -361,6 +369,15 @@
         "description": "api.wsgi",
         "peekOfCode": "application = get_wsgi_application()",
         "detail": "api.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "UserAdmin",
+        "kind": 6,
+        "importPath": "authentication.admin",
+        "description": "authentication.admin",
+        "peekOfCode": "class UserAdmin(UserAdmin):\n    list_display = ('email', 'first_name', 'last_name', 'username', 'last_login', 'date_joined', 'is_active')\n    list_display_links = ('email', 'first_name', 'last_name')\n    readonly_fields = ('last_login', 'date_joined')\n    ordering = ('-date_joined',)\n    filter_horizontal = ()\n    list_filter = ()\n    fieldsets = ()\nadmin.site.register(User, UserAdmin)",
+        "detail": "authentication.admin",
         "documentation": {}
     },
     {
