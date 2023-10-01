@@ -1418,7 +1418,16 @@
         "kind": 5,
         "importPath": "api.wsgi",
         "description": "api.wsgi",
-        "peekOfCode": "application = get_wsgi_application()",
+        "peekOfCode": "application = get_wsgi_application()\napp = application",
+        "detail": "api.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "api.wsgi",
+        "description": "api.wsgi",
+        "peekOfCode": "app = application",
         "detail": "api.wsgi",
         "documentation": {}
     },
