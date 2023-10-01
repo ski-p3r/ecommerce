@@ -57,6 +57,30 @@
         "documentation": {}
     },
     {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -145,6 +169,54 @@
         "documentation": {}
     },
     {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
         "label": "get_wsgi_application",
         "importPath": "django.core.wsgi",
         "description": "django.core.wsgi",
@@ -177,11 +249,187 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "transaction",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "transaction",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "transaction",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "transaction",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "transaction",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "transaction",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "transaction",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "transaction",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "transaction",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "transaction",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "UserAdmin",
         "importPath": "django.contrib.auth.admin",
         "description": "django.contrib.auth.admin",
         "isExtraImport": true,
         "detail": "django.contrib.auth.admin",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
         "documentation": {}
     },
     {
@@ -214,6 +462,38 @@
         "description": "django.contrib.auth.models",
         "isExtraImport": true,
         "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
         "documentation": {}
     },
     {
@@ -254,6 +534,22 @@
         "description": "rest_framework.views",
         "isExtraImport": true,
         "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
         "documentation": {}
     },
     {
@@ -354,11 +650,430 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
         "label": "swagger_auto_schema",
         "importPath": "drf_yasg.utils",
         "description": "drf_yasg.utils",
         "isExtraImport": true,
         "detail": "drf_yasg.utils",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "CreateModelMixin",
+        "importPath": "rest_framework.mixins",
+        "description": "rest_framework.mixins",
+        "isExtraImport": true,
+        "detail": "rest_framework.mixins",
+        "documentation": {}
+    },
+    {
+        "label": "DestroyModelMixin",
+        "importPath": "rest_framework.mixins",
+        "description": "rest_framework.mixins",
+        "isExtraImport": true,
+        "detail": "rest_framework.mixins",
+        "documentation": {}
+    },
+    {
+        "label": "RetrieveModelMixin",
+        "importPath": "rest_framework.mixins",
+        "description": "rest_framework.mixins",
+        "isExtraImport": true,
+        "detail": "rest_framework.mixins",
+        "documentation": {}
+    },
+    {
+        "label": "ListModelMixin",
+        "importPath": "rest_framework.mixins",
+        "description": "rest_framework.mixins",
+        "isExtraImport": true,
+        "detail": "rest_framework.mixins",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "Cart",
+        "importPath": "cart.models",
+        "description": "cart.models",
+        "isExtraImport": true,
+        "detail": "cart.models",
+        "documentation": {}
+    },
+    {
+        "label": "CartItem",
+        "importPath": "cart.models",
+        "description": "cart.models",
+        "isExtraImport": true,
+        "detail": "cart.models",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleProductSerializer",
+        "importPath": "cart.serializers",
+        "description": "cart.serializers",
+        "isExtraImport": true,
+        "detail": "cart.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "BasePermission",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAdminUser",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "SAFE_METHODS",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "rest_framework",
+        "importPath": "django_filters",
+        "description": "django_filters",
+        "isExtraImport": true,
+        "detail": "django_filters",
+        "documentation": {}
+    },
+    {
+        "label": "SearchFilter",
+        "importPath": "rest_framework.filters",
+        "description": "rest_framework.filters",
+        "isExtraImport": true,
+        "detail": "rest_framework.filters",
+        "documentation": {}
+    },
+    {
+        "label": "django",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django",
+        "description": "django",
+        "detail": "django",
         "documentation": {}
     },
     {
@@ -794,12 +1509,417 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "cart.migrations.0001_initial",
+        "description": "cart.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('shop', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Cart',\n            fields=[\n                ('id', models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True, serialize=False)),",
+        "detail": "cart.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "CartConfig",
+        "kind": 6,
+        "importPath": "cart.apps",
+        "description": "cart.apps",
+        "peekOfCode": "class CartConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'cart'",
+        "detail": "cart.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Cart",
+        "kind": 6,
+        "importPath": "cart.models",
+        "description": "cart.models",
+        "peekOfCode": "class Cart(models.Model):\n    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return str(self.id)\nclass CartItem(models.Model):\n    cart = models.ForeignKey(Cart, on_delete=models.CASCADE, related_name='items')\n    product = models.ForeignKey(Product, on_delete=models.PROTECT)\n    quantity = models.PositiveIntegerField(default=1)\n    created_at = models.DateTimeField(auto_now_add=True)",
+        "detail": "cart.models",
+        "documentation": {}
+    },
+    {
+        "label": "CartItem",
+        "kind": 6,
+        "importPath": "cart.models",
+        "description": "cart.models",
+        "peekOfCode": "class CartItem(models.Model):\n    cart = models.ForeignKey(Cart, on_delete=models.CASCADE, related_name='items')\n    product = models.ForeignKey(Product, on_delete=models.PROTECT)\n    quantity = models.PositiveIntegerField(default=1)\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return str(self.cart.id)",
+        "detail": "cart.models",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleProductSerializer",
+        "kind": 6,
+        "importPath": "cart.serializers",
+        "description": "cart.serializers",
+        "peekOfCode": "class SimpleProductSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Product\n        fields = ['name', 'price']\nclass CartItemSerializer(serializers.ModelSerializer):\n    product = SimpleProductSerializer()\n    total = serializers.SerializerMethodField()\n    class Meta:\n        model = CartItem\n        fields = ['id', 'product', 'quantity', 'total']",
+        "detail": "cart.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "CartItemSerializer",
+        "kind": 6,
+        "importPath": "cart.serializers",
+        "description": "cart.serializers",
+        "peekOfCode": "class CartItemSerializer(serializers.ModelSerializer):\n    product = SimpleProductSerializer()\n    total = serializers.SerializerMethodField()\n    class Meta:\n        model = CartItem\n        fields = ['id', 'product', 'quantity', 'total']\n    def get_total(self, obj):\n        return obj.product.price * obj.quantity\nclass CartSerializer(serializers.ModelSerializer):\n    items = CartItemSerializer(many=True)",
+        "detail": "cart.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "CartSerializer",
+        "kind": 6,
+        "importPath": "cart.serializers",
+        "description": "cart.serializers",
+        "peekOfCode": "class CartSerializer(serializers.ModelSerializer):\n    items = CartItemSerializer(many=True)\n    total_price = serializers.SerializerMethodField()\n    class Meta:\n        model = Cart\n        fields = ['items', 'total_price']\n    def get_total_price(self, obj):\n        return sum(item.product.price * item.quantity for item in obj.items.all())\nclass CartCreateSerializer(serializers.ModelSerializer):\n    id = serializers.UUIDField(read_only=True)",
+        "detail": "cart.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "CartCreateSerializer",
+        "kind": 6,
+        "importPath": "cart.serializers",
+        "description": "cart.serializers",
+        "peekOfCode": "class CartCreateSerializer(serializers.ModelSerializer):\n    id = serializers.UUIDField(read_only=True)\n    items = CartItemSerializer(many=True, read_only=True)\n    class Meta:\n        model = Cart\n        fields = ['id', 'items']\nclass CreateCartItemSerializer(serializers.ModelSerializer):\n    quantity = serializers.IntegerField()\n    class Meta:\n        model = CartItem",
+        "detail": "cart.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "CreateCartItemSerializer",
+        "kind": 6,
+        "importPath": "cart.serializers",
+        "description": "cart.serializers",
+        "peekOfCode": "class CreateCartItemSerializer(serializers.ModelSerializer):\n    quantity = serializers.IntegerField()\n    class Meta:\n        model = CartItem\n        fields = ['product', 'quantity']\n    def validate_quantity(self, value):\n        if value <= 0:\n            raise serializers.ValidationError(\"The quantity must be a positive integer.\")\n        return value\n    def create(self, validated_data):",
+        "detail": "cart.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateCartItemSerializer",
+        "kind": 6,
+        "importPath": "cart.serializers",
+        "description": "cart.serializers",
+        "peekOfCode": "class UpdateCartItemSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = CartItem\n        fields = ['quantity']\n    def validate_quantity(self, value):\n        if value <= 0:\n            raise serializers.ValidationError(\"The quantity must be a positive integer.\")\n        return value\n    def update(self, instance, validated_data):\n        # Calculate the change in quantity",
+        "detail": "cart.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "CartViewSet",
+        "kind": 6,
+        "importPath": "cart.views",
+        "description": "cart.views",
+        "peekOfCode": "class CartViewSet(ModelViewSet):\n    queryset = Cart.objects.all()\n    def get_serializer_class(self):\n        if self.action == 'create':\n            return CartCreateSerializer\n        return CartSerializer\n    def create(self, request, *args, **kwargs):\n        serializer = self.get_serializer(data={})\n        serializer.is_valid(raise_exception=True)\n        serializer.save()",
+        "detail": "cart.views",
+        "documentation": {}
+    },
+    {
+        "label": "CartItemViewSet",
+        "kind": 6,
+        "importPath": "cart.views",
+        "description": "cart.views",
+        "peekOfCode": "class CartItemViewSet(ModelViewSet):\n    def get_serializer_class(self):\n        if self.action == 'create':\n            return CreateCartItemSerializer\n        elif self.action == 'update':\n            return UpdateCartItemSerializer\n        return CartItemSerializer\n    def get_queryset(self):\n        cart_pk = self.kwargs.get('cart_pk')\n        try:",
+        "detail": "cart.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "order.migrations.0001_initial",
+        "description": "order.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('cart', '0001_initial'),\n        ('shop', '0001_initial'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Order',",
+        "detail": "order.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "OrderConfig",
+        "kind": 6,
+        "importPath": "order.apps",
+        "description": "order.apps",
+        "peekOfCode": "class OrderConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'order'",
+        "detail": "order.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "kind": 6,
+        "importPath": "order.models",
+        "description": "order.models",
+        "peekOfCode": "class Order(models.Model):\n    PENDING='P'\n    SHIPPED='S'\n    DELIVERED='D'\n    STATUS_CHOICE = [\n        (PENDING, 'PENDING'),\n        (SHIPPED, 'SHIPPED'),\n        (DELIVERED, 'DELIVERED'),\n    ]\n    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)",
+        "detail": "order.models",
+        "documentation": {}
+    },
+    {
+        "label": "OrderItem",
+        "kind": 6,
+        "importPath": "order.models",
+        "description": "order.models",
+        "peekOfCode": "class OrderItem(models.Model):\n    order = models.ForeignKey(Order, on_delete=models.CASCADE, related_name='order_items')\n    product = models.ForeignKey(Product, on_delete=models.PROTECT, related_name='items')\n    quantity = models.PositiveIntegerField()\n    def __str__(self):\n        return str(self.order.id)",
+        "detail": "order.models",
+        "documentation": {}
+    },
+    {
+        "label": "OrderItemSerializer",
+        "kind": 6,
+        "importPath": "order.serializers",
+        "description": "order.serializers",
+        "peekOfCode": "class OrderItemSerializer(serializers.ModelSerializer):\n    product = SimpleProductSerializer(read_only=True)\n    quantity = serializers.IntegerField(read_only=True)\n    total_price = serializers.SerializerMethodField()\n    def get_total_price(self, obj):\n        return obj.product.price * obj.quantity\n    class Meta:\n        model = OrderItem\n        fields = ['product', 'quantity', 'total_price']\nclass OrderSerializer(serializers.ModelSerializer):",
+        "detail": "order.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "OrderSerializer",
+        "kind": 6,
+        "importPath": "order.serializers",
+        "description": "order.serializers",
+        "peekOfCode": "class OrderSerializer(serializers.ModelSerializer):\n    total = serializers.SerializerMethodField()\n    items = serializers.SerializerMethodField()\n    def get_items(self, obj):\n        order_items = OrderItem.objects.filter(order=obj)\n        return OrderItemSerializer(order_items, many=True).data\n    def get_total(self, obj):\n        return sum(item.product.price * item.quantity for item in obj.order_items.all())  # Calculate the total here\n    class Meta:\n        model = Order",
+        "detail": "order.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "OrderViewSet",
+        "kind": 6,
+        "importPath": "order.views",
+        "description": "order.views",
+        "peekOfCode": "class OrderViewSet(ModelViewSet):\n    queryset = Order.objects.all()\n    serializer_class = OrderSerializer\n    permission_classes = [IsAuthenticated]\n    def get_serializer_context(self):\n        return {'user': self.request.user}\nclass OrderItemViewSet(ModelViewSet):\n    queryset = OrderItem.objects.all()\n    serializer_class = OrderItemSerializer\n    permission_classes = [IsAuthenticated]",
+        "detail": "order.views",
+        "documentation": {}
+    },
+    {
+        "label": "OrderItemViewSet",
+        "kind": 6,
+        "importPath": "order.views",
+        "description": "order.views",
+        "peekOfCode": "class OrderItemViewSet(ModelViewSet):\n    queryset = OrderItem.objects.all()\n    serializer_class = OrderItemSerializer\n    permission_classes = [IsAuthenticated]",
+        "detail": "order.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "shop.migrations.0001_initial",
+        "description": "shop.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Category',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=100)),",
+        "detail": "shop.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "ShopConfig",
+        "kind": 6,
+        "importPath": "shop.apps",
+        "description": "shop.apps",
+        "peekOfCode": "class ShopConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'shop'",
+        "detail": "shop.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "kind": 6,
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "peekOfCode": "class Category(models.Model):\n    name = models.CharField(max_length=100)\n    parent = models.ForeignKey('self', null=True, blank=True, on_delete=models.CASCADE, related_name='children')\n    def __str__(self):\n        return self.name\nclass Product(models.Model):\n    name = models.CharField(max_length=100)\n    description = models.TextField()\n    price = models.DecimalField(max_digits=10, decimal_places=2)\n    category = models.ForeignKey(",
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "kind": 6,
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "peekOfCode": "class Product(models.Model):\n    name = models.CharField(max_length=100)\n    description = models.TextField()\n    price = models.DecimalField(max_digits=10, decimal_places=2)\n    category = models.ForeignKey(\n        Category,\n        on_delete=models.CASCADE,\n        related_name='products'\n    )\n    stock = models.PositiveIntegerField()",
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "CategorySerializer",
+        "kind": 6,
+        "importPath": "shop.serializers",
+        "description": "shop.serializers",
+        "peekOfCode": "class CategorySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Category\n        fields = ['id', 'name', 'parent']\nclass RecursiveCategorySerializer(serializers.Serializer):\n    def to_representation(self, instance):\n        serializer = self.parent.parent.__class__(instance, context=self.context)\n        return serializer.data\nclass GetCategorySerializer(serializers.ModelSerializer):\n    children = RecursiveCategorySerializer(many=True, read_only=True)",
+        "detail": "shop.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "RecursiveCategorySerializer",
+        "kind": 6,
+        "importPath": "shop.serializers",
+        "description": "shop.serializers",
+        "peekOfCode": "class RecursiveCategorySerializer(serializers.Serializer):\n    def to_representation(self, instance):\n        serializer = self.parent.parent.__class__(instance, context=self.context)\n        return serializer.data\nclass GetCategorySerializer(serializers.ModelSerializer):\n    children = RecursiveCategorySerializer(many=True, read_only=True)\n    product_count = serializers.SerializerMethodField()\n    class Meta:\n        model = Category\n        fields = ['id', 'name', 'children', 'product_count']",
+        "detail": "shop.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "GetCategorySerializer",
+        "kind": 6,
+        "importPath": "shop.serializers",
+        "description": "shop.serializers",
+        "peekOfCode": "class GetCategorySerializer(serializers.ModelSerializer):\n    children = RecursiveCategorySerializer(many=True, read_only=True)\n    product_count = serializers.SerializerMethodField()\n    class Meta:\n        model = Category\n        fields = ['id', 'name', 'children', 'product_count']\n    def get_product_count(self, instance):\n        # Count the number of products related to this category\n        return instance.products.count()\n    def to_representation(self, instance):",
+        "detail": "shop.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleCategorySerializer",
+        "kind": 6,
+        "importPath": "shop.serializers",
+        "description": "shop.serializers",
+        "peekOfCode": "class SimpleCategorySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Category\n        fields = ['name']\nclass ProductSerializer(serializers.ModelSerializer):\n    category = SimpleCategorySerializer()\n    class Meta:\n        model = Product\n        fields = ['id', 'name', 'description', 'price', 'stock', 'category']\nclass CreateProductSerializer(serializers.ModelSerializer):",
+        "detail": "shop.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ProductSerializer",
+        "kind": 6,
+        "importPath": "shop.serializers",
+        "description": "shop.serializers",
+        "peekOfCode": "class ProductSerializer(serializers.ModelSerializer):\n    category = SimpleCategorySerializer()\n    class Meta:\n        model = Product\n        fields = ['id', 'name', 'description', 'price', 'stock', 'category']\nclass CreateProductSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Product\n        fields = ['id', 'name', 'description', 'price', 'stock', 'category']\nclass SimpleProductSerializer(serializers.ModelSerializer):",
+        "detail": "shop.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "CreateProductSerializer",
+        "kind": 6,
+        "importPath": "shop.serializers",
+        "description": "shop.serializers",
+        "peekOfCode": "class CreateProductSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Product\n        fields = ['id', 'name', 'description', 'price', 'stock', 'category']\nclass SimpleProductSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Product\n        fields = ['name', 'price']",
+        "detail": "shop.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleProductSerializer",
+        "kind": 6,
+        "importPath": "shop.serializers",
+        "description": "shop.serializers",
+        "peekOfCode": "class SimpleProductSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Product\n        fields = ['name', 'price']",
+        "detail": "shop.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "shop.urls",
+        "description": "shop.urls",
+        "peekOfCode": "urlpatterns = router.urls",
+        "detail": "shop.urls",
+        "documentation": {}
+    },
+    {
+        "label": "ReadOnly",
+        "kind": 6,
+        "importPath": "shop.views",
+        "description": "shop.views",
+        "peekOfCode": "class ReadOnly(BasePermission):\n    def has_permission(self, request, view):\n        return request.method in SAFE_METHODS\nclass ProductFilter(filters.FilterSet):\n    min_price = filters.NumberFilter(field_name='price', lookup_expr='gte')\n    max_price = filters.NumberFilter(field_name='price', lookup_expr='lte')\n    category_name = filters.CharFilter(method='filter_category_name')\n    class Meta:\n        model = Product\n        fields = ['min_price', 'max_price']",
+        "detail": "shop.views",
+        "documentation": {}
+    },
+    {
+        "label": "ProductFilter",
+        "kind": 6,
+        "importPath": "shop.views",
+        "description": "shop.views",
+        "peekOfCode": "class ProductFilter(filters.FilterSet):\n    min_price = filters.NumberFilter(field_name='price', lookup_expr='gte')\n    max_price = filters.NumberFilter(field_name='price', lookup_expr='lte')\n    category_name = filters.CharFilter(method='filter_category_name')\n    class Meta:\n        model = Product\n        fields = ['min_price', 'max_price']\n    def filter_category_name(self, queryset, name, value):\n        return queryset.filter(category__name__icontains=value)\nclass CategoryViewSet(ModelViewSet):",
+        "detail": "shop.views",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryViewSet",
+        "kind": 6,
+        "importPath": "shop.views",
+        "description": "shop.views",
+        "peekOfCode": "class CategoryViewSet(ModelViewSet):\n    queryset = Category.objects.select_related('parent').filter(parent=None)\n    serializer_class = GetCategorySerializer\n    permission_classes = [IsAdminUser | ReadOnly]\n    def get_serializer_class(self):\n        if self.action == 'create':\n            return CategorySerializer\n        elif self.action == 'list' or self.action == 'retrieve':\n            return GetCategorySerializer\n        return CategorySerializer",
+        "detail": "shop.views",
+        "documentation": {}
+    },
+    {
+        "label": "ProductViewSet",
+        "kind": 6,
+        "importPath": "shop.views",
+        "description": "shop.views",
+        "peekOfCode": "class ProductViewSet(ModelViewSet):\n    queryset = Product.objects.all()\n    serializer_class = ProductSerializer\n    filter_backends = (filters.DjangoFilterBackend, SearchFilter)\n    filterset_class = ProductFilter\n    search_fields = ['name', 'description']\n    permission_classes = [IsAdminUser | ReadOnly]\n    def perform_create(self, serializer):\n        serializer.save()\n    def perform_update(self, serializer):",
+        "detail": "shop.views",
+        "documentation": {}
+    },
+    {
+        "label": "seed_data",
+        "kind": 2,
+        "importPath": "automotive_product_seed",
+        "description": "automotive_product_seed",
+        "peekOfCode": "def seed_data():\n    products_data = [\n        # Car Accessories\n        {\n            \"category\": \"Car Accessories\",\n            \"name\": \"Anker Roav Dash Cam\",\n            \"description\": \"A high-resolution dash cam that records clear footage of your drives and provides extra security on the road.\",\n            \"price\": 89.99,\n            \"stock\": 25,\n        },",
+        "detail": "automotive_product_seed",
+        "documentation": {}
+    },
+    {
+        "label": "seed_data",
+        "kind": 2,
+        "importPath": "beauty_products_seed",
+        "description": "beauty_products_seed",
+        "peekOfCode": "def seed_data():\n    products_data = [\n        # Skincare\n        {\n            \"category\": \"Skincare\",\n            \"name\": \"CeraVe Hydrating Cleanser\",\n            \"description\": \"A gentle and hydrating facial cleanser that effectively removes dirt and makeup without over-drying the skin.\",\n            \"price\": 12.99,\n            \"stock\": 40,\n        },",
+        "detail": "beauty_products_seed",
+        "documentation": {}
+    },
+    {
+        "label": "seed_data",
+        "kind": 2,
+        "importPath": "books_and_media_product_seed",
+        "description": "books_and_media_product_seed",
+        "peekOfCode": "def seed_data():\n    products_data = [\n        # Fiction\n        {\n            \"category\": \"Fiction\",\n            \"name\": \"The Great Gatsby by F. Scott Fitzgerald\",\n            \"description\": \"A classic novel set in the Roaring Twenties, exploring themes of wealth, love, and the American Dream.\",\n            \"price\": 14.99,\n            \"stock\": 25,\n        },",
+        "detail": "books_and_media_product_seed",
+        "documentation": {}
+    },
+    {
+        "label": "seed_data",
+        "kind": 2,
+        "importPath": "category_seed",
+        "description": "category_seed",
+        "peekOfCode": "def seed_data():\n    categories_data = [\n        {\"name\": \"Electronics\", \"subcategories\": [\"Smartphones\", \"Laptops\", \"Headphones & Speakers\", \"Wearable Devices\", \"Cameras & Photography\", \"Accessories\"]},\n        {\"name\": \"Clothing\", \"subcategories\": [\"Men's Clothing\", \"Women's Clothing\", \"Kids' Clothing\", \"Shoes & Footwear\", \"Sportswear\", \"Lingerie & Sleepwear\"]},\n        {\"name\": \"Home & Kitchen\", \"subcategories\": [\"Furniture\", \"Kitchen Appliances\", \"Home Decor\", \"Bedding & Linens\", \"Cookware & Dining\", \"Cleaning Supplies\"]},\n        {\"name\": \"Sports & Outdoors\", \"subcategories\": [\"Fitness Equipment\", \"Outdoor Gear\", \"Sports Apparel\", \"Biking\", \"Camping & Hiking\", \"Team Sports\"]},\n        {\"name\": \"Books & Media\", \"subcategories\": [\"Fiction\", \"Non-Fiction\", \"Textbooks\", \"Movies & TV Shows\", \"Music\", \"Magazines\"]},\n        {\"name\": \"Toys & Games\", \"subcategories\": [\"Action Figures & Playsets\", \"Board Games\", \"Outdoor Toys\", \"Puzzles\", \"Dolls & Accessories\"]},\n        {\"name\": \"Beauty & Personal Care\", \"subcategories\": [\"Skincare\", \"Haircare\", \"Makeup\", \"Fragrances\", \"Personal Hygiene\"]},\n        {\"name\": \"Automotive\", \"subcategories\": [\"Car Accessories\", \"Motorcycle Parts\", \"Car Care\", \"Tires & Wheels\"]},",
+        "detail": "category_seed",
+        "documentation": {}
+    },
+    {
+        "label": "seed_data",
+        "kind": 2,
+        "importPath": "clothing_product_seed",
+        "description": "clothing_product_seed",
+        "peekOfCode": "def seed_data():\n    products_data = [\n        # Men's Clothing\n        {\n            \"category\": \"Men's Clothing\",\n            \"name\": \"Men's Slim-Fit Suit\",\n            \"description\": \"A classic slim-fit suit for men, perfect for formal occasions and business meetings.\",\n            \"price\": 299.99,\n            \"stock\": 20,\n        },",
+        "detail": "clothing_product_seed",
+        "documentation": {}
+    },
+    {
+        "label": "seed_data",
+        "kind": 2,
+        "importPath": "electronics_product_seeed",
+        "description": "electronics_product_seeed",
+        "peekOfCode": "def seed_data():\n    products_data = [\n        {\n            \"category\": \"Smartphones\",\n            \"name\": \"Apple iPhone 13 Pro Max\",\n            \"description\": \"The latest flagship smartphone from Apple with a stunning Super Retina XDR display, A15 Bionic chip, and advanced camera system.\",\n            \"price\": 1099.00,\n            \"stock\": 50,\n        },\n        {",
+        "detail": "electronics_product_seeed",
+        "documentation": {}
+    },
+    {
+        "label": "seed_data",
+        "kind": 2,
+        "importPath": "home_and_kitchen_product_seed",
+        "description": "home_and_kitchen_product_seed",
+        "peekOfCode": "def seed_data():\n    products_data = [\n        # Furniture\n        {\n            \"category\": \"Furniture\",\n            \"name\": \"3-Piece Living Room Set\",\n            \"description\": \"A stylish and comfortable living room set including a sofa, loveseat, and coffee table.\",\n            \"price\": 899.99,\n            \"stock\": 15,\n        },",
+        "detail": "home_and_kitchen_product_seed",
+        "documentation": {}
+    },
+    {
         "label": "main",
         "kind": 2,
         "importPath": "manage",
         "description": "manage",
         "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'api.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
         "detail": "manage",
+        "documentation": {}
+    },
+    {
+        "label": "seed_data",
+        "kind": 2,
+        "importPath": "sport_and_outdor_product_seed",
+        "description": "sport_and_outdor_product_seed",
+        "peekOfCode": "def seed_data():\n    products_data = [\n        # Fitness Equipment\n        {\n            \"category\": \"Fitness Equipment\",\n            \"name\": \"Treadmill with Incline\",\n            \"description\": \"A high-quality treadmill with adjustable incline, perfect for cardio workouts at home.\",\n            \"price\": 899.99,\n            \"stock\": 10,\n        },",
+        "detail": "sport_and_outdor_product_seed",
+        "documentation": {}
+    },
+    {
+        "label": "seed_data",
+        "kind": 2,
+        "importPath": "toys_and_games_product_seed",
+        "description": "toys_and_games_product_seed",
+        "peekOfCode": "def seed_data():\n    products_data = [\n        # Action Figures & Playsets\n        {\n            \"category\": \"Action Figures & Playsets\",\n            \"name\": \"Marvel Avengers Action Figure Set\",\n            \"description\": \"A set of action figures featuring iconic Marvel Avengers characters for imaginative play and display.\",\n            \"price\": 34.99,\n            \"stock\": 30,\n        },",
+        "detail": "toys_and_games_product_seed",
         "documentation": {}
     }
 ]
