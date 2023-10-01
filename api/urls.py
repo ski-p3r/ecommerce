@@ -60,6 +60,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('__debug__/', include('debug_toolbar.urls')),
     path('auth/', include('authentication.urls')),
+    # path('cart/', include('cart.urls')),
+    # path('order/', include('order.urls')),
+    # path('shop/', include('shop.urls')),
     path('', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
-]
+] + router.urls + cart_router.urls + order_router.urls

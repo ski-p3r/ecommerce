@@ -1148,7 +1148,7 @@
         "kind": 5,
         "importPath": "api.settings",
         "description": "api.settings",
-        "peekOfCode": "SECRET_KEY = config('SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nEMAIL_BACKEND = config('EMAIL_BACKEND')\nEMAIL_HOST = config('EMAIL_HOST')\nEMAIL_PORT = config('EMAIL_PORT')\nEMAIL_USE_TLS = config('EMAIL_USE_TLS')\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nALLOWED_HOSTS = []",
+        "peekOfCode": "SECRET_KEY = config('SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nEMAIL_BACKEND = config('EMAIL_BACKEND')\nEMAIL_HOST = config('EMAIL_HOST')\nEMAIL_PORT = config('EMAIL_PORT')\nEMAIL_USE_TLS = config('EMAIL_USE_TLS')\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nALLOWED_HOSTS = ['*']",
         "detail": "api.settings",
         "documentation": {}
     },
@@ -1157,7 +1157,7 @@
         "kind": 5,
         "importPath": "api.settings",
         "description": "api.settings",
-        "peekOfCode": "DEBUG = True\nEMAIL_BACKEND = config('EMAIL_BACKEND')\nEMAIL_HOST = config('EMAIL_HOST')\nEMAIL_PORT = config('EMAIL_PORT')\nEMAIL_USE_TLS = config('EMAIL_USE_TLS')\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nALLOWED_HOSTS = []\nAUTH_USER_MODEL = 'authentication.User'\n# Application definition",
+        "peekOfCode": "DEBUG = True\nEMAIL_BACKEND = config('EMAIL_BACKEND')\nEMAIL_HOST = config('EMAIL_HOST')\nEMAIL_PORT = config('EMAIL_PORT')\nEMAIL_USE_TLS = config('EMAIL_USE_TLS')\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nALLOWED_HOSTS = ['*']\nAUTH_USER_MODEL = 'authentication.User'\n# Application definition",
         "detail": "api.settings",
         "documentation": {}
     },
@@ -1166,7 +1166,7 @@
         "kind": 5,
         "importPath": "api.settings",
         "description": "api.settings",
-        "peekOfCode": "EMAIL_BACKEND = config('EMAIL_BACKEND')\nEMAIL_HOST = config('EMAIL_HOST')\nEMAIL_PORT = config('EMAIL_PORT')\nEMAIL_USE_TLS = config('EMAIL_USE_TLS')\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nALLOWED_HOSTS = []\nAUTH_USER_MODEL = 'authentication.User'\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "EMAIL_BACKEND = config('EMAIL_BACKEND')\nEMAIL_HOST = config('EMAIL_HOST')\nEMAIL_PORT = config('EMAIL_PORT')\nEMAIL_USE_TLS = config('EMAIL_USE_TLS')\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nALLOWED_HOSTS = ['*']\nAUTH_USER_MODEL = 'authentication.User'\n# Application definition\nINSTALLED_APPS = [",
         "detail": "api.settings",
         "documentation": {}
     },
@@ -1175,7 +1175,7 @@
         "kind": 5,
         "importPath": "api.settings",
         "description": "api.settings",
-        "peekOfCode": "EMAIL_HOST = config('EMAIL_HOST')\nEMAIL_PORT = config('EMAIL_PORT')\nEMAIL_USE_TLS = config('EMAIL_USE_TLS')\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nALLOWED_HOSTS = []\nAUTH_USER_MODEL = 'authentication.User'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',",
+        "peekOfCode": "EMAIL_HOST = config('EMAIL_HOST')\nEMAIL_PORT = config('EMAIL_PORT')\nEMAIL_USE_TLS = config('EMAIL_USE_TLS')\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nALLOWED_HOSTS = ['*']\nAUTH_USER_MODEL = 'authentication.User'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',",
         "detail": "api.settings",
         "documentation": {}
     },
@@ -1184,7 +1184,7 @@
         "kind": 5,
         "importPath": "api.settings",
         "description": "api.settings",
-        "peekOfCode": "EMAIL_PORT = config('EMAIL_PORT')\nEMAIL_USE_TLS = config('EMAIL_USE_TLS')\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nALLOWED_HOSTS = []\nAUTH_USER_MODEL = 'authentication.User'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "peekOfCode": "EMAIL_PORT = config('EMAIL_PORT')\nEMAIL_USE_TLS = config('EMAIL_USE_TLS')\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nALLOWED_HOSTS = ['*']\nAUTH_USER_MODEL = 'authentication.User'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
         "detail": "api.settings",
         "documentation": {}
     },
@@ -1193,7 +1193,7 @@
         "kind": 5,
         "importPath": "api.settings",
         "description": "api.settings",
-        "peekOfCode": "EMAIL_USE_TLS = config('EMAIL_USE_TLS')\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nALLOWED_HOSTS = []\nAUTH_USER_MODEL = 'authentication.User'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "peekOfCode": "EMAIL_USE_TLS = config('EMAIL_USE_TLS')\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nALLOWED_HOSTS = ['*']\nAUTH_USER_MODEL = 'authentication.User'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
         "detail": "api.settings",
         "documentation": {}
     },
@@ -1202,7 +1202,7 @@
         "kind": 5,
         "importPath": "api.settings",
         "description": "api.settings",
-        "peekOfCode": "EMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nALLOWED_HOSTS = []\nAUTH_USER_MODEL = 'authentication.User'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "EMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nALLOWED_HOSTS = ['*']\nAUTH_USER_MODEL = 'authentication.User'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
         "detail": "api.settings",
         "documentation": {}
     },
@@ -1211,7 +1211,7 @@
         "kind": 5,
         "importPath": "api.settings",
         "description": "api.settings",
-        "peekOfCode": "EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nALLOWED_HOSTS = []\nAUTH_USER_MODEL = 'authentication.User'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nALLOWED_HOSTS = ['*']\nAUTH_USER_MODEL = 'authentication.User'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
         "detail": "api.settings",
         "documentation": {}
     },
@@ -1220,7 +1220,7 @@
         "kind": 5,
         "importPath": "api.settings",
         "description": "api.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\nAUTH_USER_MODEL = 'authentication.User'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "ALLOWED_HOSTS = ['*']\nAUTH_USER_MODEL = 'authentication.User'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
         "detail": "api.settings",
         "documentation": {}
     },
@@ -1409,7 +1409,7 @@
         "kind": 5,
         "importPath": "api.urls",
         "description": "api.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('__debug__/', include('debug_toolbar.urls')),\n    path('auth/', include('authentication.urls')),\n    path('', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),\n    path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('__debug__/', include('debug_toolbar.urls')),\n    path('auth/', include('authentication.urls')),\n    # path('cart/', include('cart.urls')),\n    # path('order/', include('order.urls')),\n    # path('shop/', include('shop.urls')),\n    path('', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),\n    path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),\n] + router.urls + cart_router.urls + order_router.urls",
         "detail": "api.urls",
         "documentation": {}
     },

@@ -40,6 +40,10 @@ class CartItemViewSet(ModelViewSet):
         return CartItem.objects.filter(cart=cart)
     
     def get_serializer_context(self):
-        return {'cart_pk': self.kwargs['cart_pk']}
+        cart_pk = self.kwargs.get('cart_pk')
+        if cart_pk is not None:
+            return {'cart_pk': cart_pk}
+        return {}
+
     
 
