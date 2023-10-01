@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'rest_framework_simplejwt',
     'drf_yasg',
     'authentication',
 ]
@@ -101,10 +102,11 @@ REST_FRAMEWORK = {
 }
 
 SIMPLE_JWT = {
-    'ACCESS_TOKEN_LIFETIME': timedelta(days=7),  # Adjust as needed
-    'SLIDING_TOKEN_REFRESH_LIFETIME': timedelta(days=14),  # Adjust as needed
-    'SLIDING_TOKEN_LIFETIME': timedelta(days=30),  # Adjust as needed
-    'SLIDING_TOKEN_REFRESH_LIFETIME': timedelta(days=27),  # Adjust as needed
+   'AUTH_HEADER_TYPES': ('JWT',),
+    'ACCESS_TOKEN_LIFETIME': timedelta(days=7),
+    'SLIDING_TOKEN_REFRESH_LIFETIME': timedelta(days=14),
+    'SLIDING_TOKEN_LIFETIME': timedelta(days=30),
+    'SLIDING_TOKEN_REFRESH_LIFETIME': timedelta(days=27),
 }
 
 # Password validation
