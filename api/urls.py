@@ -19,6 +19,28 @@ from django.urls import path, include
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 from rest_framework import permissions
+from rest_framework_nested import routers
+from shop import views
+from cart.views import CartItemViewSet, CartViewSet
+from order import views as order_view
+
+
+router = routers.DefaultRouter()
+router.register('products', views.ProductViewSet, basename='product')
+router.register('categories', views.CategoryViewSet, basename='category')
+# router.register('users', UserViewSet)
+router.register('carts', CartViewSet, basename='cart')
+
+# Create a nested router for cart items
+cart_router = routers.NestedDefaultRouter(router, 'carts', lookup='cart')
+cart_router.register('items', CartItemViewSet, basename='cart-items')
+
+# Create a router for orders
+router.register('order', order_view.OrderViewSet, basename='order')
+
+# Create a nested router for order items
+order_router = routers.NestedDefaultRouter(router, 'order', lookup='order')
+order_router.register('items', order_view.OrderItemViewSet, basename='order-items')
 
 
 schema_view = get_schema_view(

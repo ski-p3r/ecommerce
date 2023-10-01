@@ -217,6 +217,46 @@
         "documentation": {}
     },
     {
+        "label": "routers",
+        "importPath": "rest_framework_nested",
+        "description": "rest_framework_nested",
+        "isExtraImport": true,
+        "detail": "rest_framework_nested",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "shop",
+        "description": "shop",
+        "isExtraImport": true,
+        "detail": "shop",
+        "documentation": {}
+    },
+    {
+        "label": "CartItemViewSet",
+        "importPath": "cart.views",
+        "description": "cart.views",
+        "isExtraImport": true,
+        "detail": "cart.views",
+        "documentation": {}
+    },
+    {
+        "label": "CartViewSet",
+        "importPath": "cart.views",
+        "description": "cart.views",
+        "isExtraImport": true,
+        "detail": "cart.views",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "order",
+        "description": "order",
+        "isExtraImport": true,
+        "detail": "order",
+        "documentation": {}
+    },
+    {
         "label": "get_wsgi_application",
         "importPath": "django.core.wsgi",
         "description": "django.core.wsgi",
@@ -1326,6 +1366,33 @@
         "description": "api.settings",
         "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "api.urls",
+        "description": "api.urls",
+        "peekOfCode": "router = routers.DefaultRouter()\nrouter.register('products', views.ProductViewSet, basename='product')\nrouter.register('categories', views.CategoryViewSet, basename='category')\n# router.register('users', UserViewSet)\nrouter.register('carts', CartViewSet, basename='cart')\n# Create a nested router for cart items\ncart_router = routers.NestedDefaultRouter(router, 'carts', lookup='cart')\ncart_router.register('items', CartItemViewSet, basename='cart-items')\n# Create a router for orders\nrouter.register('order', order_view.OrderViewSet, basename='order')",
+        "detail": "api.urls",
+        "documentation": {}
+    },
+    {
+        "label": "cart_router",
+        "kind": 5,
+        "importPath": "api.urls",
+        "description": "api.urls",
+        "peekOfCode": "cart_router = routers.NestedDefaultRouter(router, 'carts', lookup='cart')\ncart_router.register('items', CartItemViewSet, basename='cart-items')\n# Create a router for orders\nrouter.register('order', order_view.OrderViewSet, basename='order')\n# Create a nested router for order items\norder_router = routers.NestedDefaultRouter(router, 'order', lookup='order')\norder_router.register('items', order_view.OrderItemViewSet, basename='order-items')\nschema_view = get_schema_view(\n   openapi.Info(\n      title=\"Ecommerce API\",",
+        "detail": "api.urls",
+        "documentation": {}
+    },
+    {
+        "label": "order_router",
+        "kind": 5,
+        "importPath": "api.urls",
+        "description": "api.urls",
+        "peekOfCode": "order_router = routers.NestedDefaultRouter(router, 'order', lookup='order')\norder_router.register('items', order_view.OrderItemViewSet, basename='order-items')\nschema_view = get_schema_view(\n   openapi.Info(\n      title=\"Ecommerce API\",\n      default_version='v1',\n      description=\"Test description\",\n      terms_of_service=\"http://localhos:8000/policies/terms/\",\n      contact=openapi.Contact(email=\"contact@api.local\"),\n      license=openapi.License(name=\"API License\"),",
+        "detail": "api.urls",
         "documentation": {}
     },
     {

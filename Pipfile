@@ -11,6 +11,7 @@ drf-yasg = "==1.21.7"
 python-decouple = "*"
 django-debug-toolbar = "*"
 django-filter = "*"
+drf-nested-routers = "*"
 
 [dev-packages]
 
