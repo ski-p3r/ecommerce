@@ -23,7 +23,8 @@ from rest_framework_nested import routers
 from shop import views
 from cart.views import CartItemViewSet, CartViewSet
 from order import views as order_view
-
+from django.conf import settings
+from django.conf.urls.static import static
 
 router = routers.DefaultRouter()
 router.register('products', views.ProductViewSet, basename='product')
@@ -66,3 +67,4 @@ urlpatterns = [
     path('', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
 ] + router.urls + cart_router.urls + order_router.urls
+urlpatterns +=  static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
